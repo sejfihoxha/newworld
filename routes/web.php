@@ -21,5 +21,5 @@ Route::resource('/admin/users','AdminUsersController');
 
 Route::get('/admin',function(){
 
-	return view('layouts.admin');
+return view('layouts.admin');
 });
